@@ -25,7 +25,7 @@
 - name: git_clone iterm2 color schema Japanesque
   git:
     repo: "https://github.com/aereal/dotfiles.git"
-     dest: "~/Desktop/dotfiles/"
+    dest: "~/Desktop/dotfiles/"
   ignore_errors: yes
 
 - name: git_clone iterm2 fonts

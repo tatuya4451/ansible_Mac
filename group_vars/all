@@ -58,9 +58,7 @@ CASK_TARGETS:
     - karabiner-elements
     - slack
     - chatwork
-    - evernote
     - iterm2
-    - virtualbox
     - skitch
     - alfred
     - 1password
@@ -74,6 +72,8 @@ CASK_TARGETS:
     - jasper
     - visual-studio-code
     - kitematic
+    - zoomus
+    - notion
 
 #homedirectory list
 HOMEDIR_TARGETS:

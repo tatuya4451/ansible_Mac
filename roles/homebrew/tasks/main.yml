@@ -18,7 +18,7 @@
 - name: Install python 3.8.2  
   tags: homebrew
   ignore_errors: yes
-  shell: pyenv install 3.8.2 && pyenv global 3.8.2
+  shell: pyenv install 3.8.2 && pyenv glob 3.8.2
 
 - name: Install pip 
   tags: homebrew

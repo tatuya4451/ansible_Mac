@@ -1,6 +1,6 @@
 [user]
-	name = RVIRUS0817
-	email = t.virus.1989@gmail.com
+	name = tatuya4451
+	email = tatuya44511336@gmail.com
 
 [color]
 	ui = auto
@@ -16,11 +16,7 @@
     pu = push
 
 [ghq]
-  root = ~/git/RVIRUS0817
-  root = ~/git/RVIRUS0817-bitbucket
-  root = ~/git/RVIRUS0817-gitlab
-  root = ~/git/lancers
-  root = ~/git/shirasud
+  root = ~/git/tatuya4451
 
 [commit]
   template = ~/.commit_template
