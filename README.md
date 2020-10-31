@@ -32,22 +32,16 @@ Fork!!!!
 $ ./scripts/first.sh
 ````
 
-## 2.roles/homedirectory/files/
-Please put it in the above directory such as .vimrc managed in the home directory and manage it.
-
-## 3.group_vars/all
-Insert the package you want to install with pip,homebrew,homebrew-tap,homebrew-cask,homedirectory
-
-## 4.dry-run
+## 2.dry-run
 ````
 $ ansible-playbook -i hosts mac.yml -KD -C
 ````
 
-## 5.run
+## 3.run
 ````
 $ ansible-playbook -i hosts mac.yml -KD
 ````
-## 6.reboot Mac
+## 4.reboot Mac
 
 😎
 
