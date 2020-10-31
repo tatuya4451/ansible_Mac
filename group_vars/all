@@ -45,10 +45,6 @@ BREW_TARGETS:
       - goodwithtech/r/dockertags
       - node
 
-#brewtap list
-BREWTAP_TARGETS:
-      - mackerelio/mackerel-agent
-
 #homebrew-cask list
 CASK_TARGETS:
     - firefox
@@ -61,10 +57,8 @@ CASK_TARGETS:
     - iterm2
     - skitch
     - alfred
-    - 1password
     - messenger
     - cyberduck
-    - atom
     - macdown
     - thunderbird
     - clipy
@@ -77,13 +71,7 @@ CASK_TARGETS:
 
 #homedirectory list
 HOMEDIR_TARGETS:
-  - { src: roles/homedirectory/files/.config, dest: ~/ }
   - { src: roles/homedirectory/files/.bash_profile, dest: ~/ }
   - { src: roles/homedirectory/files/.gitconfig, dest: ~/ }
-  - { src: roles/homedirectory/files/.commit_template, dest: ~/ }
-  - { src: roles/homedirectory/files/.tmux.conf, dest: ~/ }
   - { src: roles/homedirectory/files/.vimrc, dest: ~/ }
   - { src: roles/homedirectory/files/.zshrc, dest: ~/ }
-  - { src: roles/homedirectory/files/.gvimrc, dest: ~/ }
-  - { src: roles/homedirectory/files/.vim, dest: ~/ }
-  - { src: roles/homedirectory/files/.terraformrc, dest: ~/ }
