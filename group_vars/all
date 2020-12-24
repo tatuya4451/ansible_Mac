@@ -48,11 +48,11 @@ BREW_TARGETS:
 #homebrew-cask list
 CASK_TARGETS:
     - firefox
-    - google-chrome
-    - google-japanese-ime
+#    - google-chrome
+#   - google-japanese-ime
     - bitbar
     - karabiner-elements
-    - slack
+#    - slack
     - chatwork
     - iterm2
     - skitch

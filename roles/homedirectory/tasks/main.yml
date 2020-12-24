@@ -1,10 +1,10 @@
-- name: Copy home directory .cache/dein
-  file: path={{ item.name }}
-        state=directory
-        mode=0755
-  loop:
-  - { name: '~/.cache/dein' }
-
+#- name: Copy home directory .cache/dein
+#  file: path={{ item.name }}
+#        state=directory
+#        mode=0755
+#  loop:
+#  - { name: '~/.cache/dein' }
+#
 - name: Copy home directory Files.
   tags: homedirectory
   copy:
@@ -13,14 +13,14 @@
   with_items:
   - "{{ HOMEDIR_TARGETS }}"
 
-- name: Download dein.vim install.sh
-  get_url:
-    url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
-    dest: ~/.config/nvim
-    mode: 0755
-
-- name: install.sh dein.vim
-  shell: sh ~/.config/nvim/installer.sh ~/.cache/dein
+#- name: Download dein.vim install.sh
+#  get_url:
+#    url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
+#    dest: ~/.config/nvim
+#    mode: 0755
+#
+#- name: install.sh dein.vim
+#  shell: sh ~/.config/nvim/installer.sh ~/.cache/dein
 
 - name: git_clone iterm2 color schema Japanesque
   git:
